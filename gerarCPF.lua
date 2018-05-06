@@ -23,6 +23,7 @@ function gerarCPF()
 
     d1 = d1 - math.floor(d1/11)*11
 
+
     if d1 < 2 then d1 = 0 else d1 = 11 - d1 end
 
     local d2 = d1*2+n9*3+n8*4+n7*5+n6*6+n5*7+n4*8+n3*9+n2*10+n1*11
