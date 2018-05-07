@@ -5,9 +5,9 @@
 -- Time: 14:49
 -- To change this template use File | Settings | File Templates.
 --
-function gerarEmail()
+math.randomseed(os.clock()*100000000000)
 
-    math.randomseed(os.clock()*100000000000)
+function gerarEmail()
 
     local chars = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
 

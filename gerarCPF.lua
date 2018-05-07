@@ -5,9 +5,9 @@
 -- Time: 14:27
 -- To change this template use File | Settings | File Templates.
 --
-function gerarCPF()
+math.randomseed(os.clock()*100000000000)
 
-    math.randomseed(os.clock()*100000000000)
+function gerarCPF()
 
     local n1 = math.random(0,9)
     local n2 = math.random(0,9)
